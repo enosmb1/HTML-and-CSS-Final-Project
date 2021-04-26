@@ -1,0 +1,92 @@
+body {
+    background:url('media/frank.gif') left no-repeat pink;
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size:12pt;
+    width:73%;
+	margin-top:5%;
+ 	background-image:url('../media/frank.gif'); 
+ 	background-repeat:no-repeat;
+ 	background-position: top right;
+
+}
+
+
+footer p{
+    /* float:none; */
+    clear:both;
+    background-color:black; 
+    color:white; 
+    text-align:center;
+}
+header{
+	background-color:black;
+	padding:10px;
+	margin-top:0px;
+}
+aside{
+	color:whitesmoke;
+	background-color:tan;
+	border:solid black 2px;
+	padding:10px;
+	position:absolute;
+	top:50px;
+}
+section{
+    flex:1;
+	background-color:tan;
+	border:10px black groove;
+	min-width:150px;
+	min-height:200px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	text-align:center;
+    overflow:auto;
+}
+
+h1 {
+    position:relative;
+    text-align:center; 
+    font-size: 3em;
+    font-family:"Rocksalt";
+    color:whitesmoke;
+    text-shadow:1px 1px grey;
+    animation:mymove 10s;
+    animation-fill-mode:forwards;
+ 
+    /* #This is the header */
+}
+@keyframes mymove {
+    from {left: -30%;}
+    to {left: 20%;}
+}
+h2 {
+    font-family:"Rocksalt";
+    color:whitesmoke;
+    text-align:center;
+    text-shadow:1px 1px black;
+}
+a:link {
+    color:green; 
+    text-decoration: underline; 
+}
+a:active {
+    color:maroon; 
+    text-decoration: underline;
+}
+a:visited {
+    color:darkblue; 
+    text-decoration: underline; 
+}
+a:hover {
+    color: white; 
+    background-color: grey; 
+    text-decoration: none; 
+}
+article {
+    display: flex;
+    height:500px;
+    overflow:auto;
+    flex-wrap:wrap;
+    align-items:center;
+}
